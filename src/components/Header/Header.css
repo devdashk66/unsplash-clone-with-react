@@ -1,0 +1,72 @@
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  width: 45px;
+  display: flex;
+  align-items: center;
+}
+.search input {
+  outline: none;
+  border-radius: 50px;
+  margin-left: 15px;
+  padding: 7px 15px;
+}
+
+.user svg {
+  font-size: 35px;
+  color: #bebebe;
+  margin-left: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+.user button {
+  border: 1px solid #ccc;
+  padding: 5px 8px;
+  border-radius: 3px;
+  color: #717171;
+  display: none;
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  padding: 4px;
+}
+
+.active {
+  /* animation: vZKGD 3s linear infinite alternate-reverse; */
+  animation-play-state: paused;
+  background: linear-gradient(135deg, #fa00ff, #00e0ff 50%, #fa00ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 500%;
+  color: #0000;
+  font-weight: bold;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .user button {
+    display: block;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
