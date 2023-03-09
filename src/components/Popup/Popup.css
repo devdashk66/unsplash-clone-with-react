@@ -70,13 +70,13 @@ img.popupImage {
 @media (min-width: 992px) {
   img.popupImage {
     width: 660px;
-    height: 715px;
+    height: 615px;
     object-fit: contain;
   }
 
   .popup {
     width: 1000px;
-    height: 736px;
+    height: 636px;
   }
 
   .userInfo {
